@@ -1,0 +1,7 @@
+$user = new User from Controller {
+    $user->name = 'John Doe';
+    $user->email = 'john@example.com';
+    $user->save();
+}
+
+echo("EL usuario tiene el nombre: " . $user->name . " y el email: " . $user->email);
